@@ -1,0 +1,31 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit5H
+#define Unit5H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ExtCtrls.hpp>
+//---------------------------------------------------------------------------
+class TFormGameNormal : public TForm
+{
+__published:	// IDE-managed Components
+	TImage *Image1;
+	void __fastcall FormCreate(TObject *Sender);
+	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TFormGameNormal(TComponent* Owner);
+	void __fastcall GetAll();
+	void __fastcall Mazzer();
+	int __fastcall offset(int x, int y);
+	void __fastcall DrawMaze();
+	void __fastcall Table();
+	void __fastcall Marckup();
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TFormGameNormal *FormGameNormal;
+//---------------------------------------------------------------------------
+#endif

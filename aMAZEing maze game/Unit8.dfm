@@ -1,0 +1,129 @@
+object FormRateing: TFormRateing
+  Left = 0
+  Top = 0
+  Caption = 'FormRateing'
+  ClientHeight = 438
+  ClientWidth = 888
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 328
+    Top = 16
+    Width = 208
+    Height = 25
+    Caption = #1058#1072#1073#1083#1080#1094#1072' '#1088#1077#1079#1091#1083#1100#1090#1072#1090#1086#1074
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 32
+    Top = 72
+    Width = 188
+    Height = 25
+    Caption = #1055#1088#1086#1089#1090#1072#1103' '#1089#1083#1086#1078#1085#1086#1089#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 328
+    Top = 72
+    Width = 227
+    Height = 25
+    Caption = #1053#1086#1088#1084#1072#1083#1100#1085#1072#1103' '#1089#1083#1086#1078#1085#1086#1089#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 632
+    Top = 72
+    Width = 194
+    Height = 25
+    Caption = #1057#1083#1086#1078#1085#1072#1103' '#1089#1083#1086#1078#1085#1086#1089#1090#1100
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -21
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object SGEasy: TStringGrid
+    Left = 8
+    Top = 112
+    Width = 281
+    Height = 308
+    ColCount = 3
+    DefaultColWidth = 90
+    FixedCols = 0
+    RowCount = 1
+    FixedRows = 0
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object SGHard: TStringGrid
+    Left = 600
+    Top = 112
+    Width = 280
+    Height = 313
+    ColCount = 3
+    DefaultColWidth = 90
+    FixedCols = 0
+    RowCount = 1
+    FixedRows = 0
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 1
+  end
+  object SGNormal: TStringGrid
+    Left = 304
+    Top = 112
+    Width = 281
+    Height = 313
+    ColCount = 3
+    DefaultColWidth = 90
+    FixedCols = 0
+    RowCount = 1
+    FixedRows = 0
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    ScrollBars = ssVertical
+    TabOrder = 2
+    RowHeights = (
+      24)
+  end
+end

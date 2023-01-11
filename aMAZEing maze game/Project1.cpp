@@ -1,0 +1,52 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+#include <tchar.h>
+//---------------------------------------------------------------------------
+#include <Vcl.Styles.hpp>
+#include <Vcl.Themes.hpp>
+USEFORM("Unit4.cpp", FormGameEasy);
+USEFORM("Unit5.cpp", FormGameNormal);
+USEFORM("Unit6.cpp", FormGameHard);
+USEFORM("Unit7.cpp", FormRate);
+USEFORM("Unit8.cpp", FormRateing);
+USEFORM("Unit1.cpp", FormMenu);
+USEFORM("Unit2.cpp", FormSkins);
+USEFORM("Unit3.cpp", FormDificult);
+//---------------------------------------------------------------------------
+int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
+{
+	try
+	{
+		Application->Initialize();
+		Application->MainFormOnTaskBar = true;
+		TStyleManager::TrySetStyle("Glossy");
+		Application->CreateForm(__classid(TFormMenu), &FormMenu);
+		Application->CreateForm(__classid(TFormSkins), &FormSkins);
+		Application->CreateForm(__classid(TFormDificult), &FormDificult);
+		Application->CreateForm(__classid(TFormGameEasy), &FormGameEasy);
+		Application->CreateForm(__classid(TFormGameNormal), &FormGameNormal);
+		Application->CreateForm(__classid(TFormGameHard), &FormGameHard);
+		Application->CreateForm(__classid(TFormRate), &FormRate);
+		Application->CreateForm(__classid(TFormRateing), &FormRateing);
+		Application->Run();
+	}
+	catch (Exception &exception)
+	{
+		Application->ShowException(&exception);
+	}
+	catch (...)
+	{
+		try
+		{
+			throw Exception("");
+		}
+		catch (Exception &exception)
+		{
+			Application->ShowException(&exception);
+		}
+	}
+	return 0;
+}
+//---------------------------------------------------------------------------

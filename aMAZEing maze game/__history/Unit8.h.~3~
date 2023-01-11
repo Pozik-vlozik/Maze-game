@@ -1,0 +1,30 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit8H
+#define Unit8H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+//---------------------------------------------------------------------------
+struct Rate
+{
+	float time;
+	char name[50];
+	char difficulty[11];
+};
+
+class TFormRateing : public TForm
+{
+__published:	// IDE-managed Components
+	void __fastcall FormShow(TObject *Sender);
+	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TFormRateing(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TFormRateing *FormRateing;
+//---------------------------------------------------------------------------
+#endif
