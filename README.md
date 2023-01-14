@@ -26,11 +26,16 @@ My first course project project
 <!DOCTYPE html>
 <html>
     <body>
-        <div align="center">
-            Hello there
-        </div>
-        <div align="center">
-            <img src="images/difficulty.png" alt="">
+        <div>
+            <h1 align="center">
+                <b>Maze Game</b>
+            </h1>
+            <div align="center">
+                Hello there
+            </div>
+            <div align="center">
+                <img src="images/difficulty.png" alt="">
+            </div>
         </div>
     </body>
 </html>
