@@ -30,9 +30,9 @@ My first course project project
             <h1 align="center">
                 <b>Maze Game</b>
             </h1>
-            <h2>
+            <h3>
                 My first course project project 
-            </h2>
+            </h3>
             <p>
                 When your open app you will see menu, where your can choose what to do
             </p>
