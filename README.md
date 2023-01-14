@@ -26,7 +26,7 @@ My first course project project
 <!DOCTYPE html>
 <html>
     <body>
-        <div align="center">
+        <div align="center" color="green">
             Hello there
         </div>
     </body>
