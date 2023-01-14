@@ -29,7 +29,7 @@ My first course project project
         <div align="center">
             Hello there
         </div>
-        <div align="senter">
+        <div align="center">
             <img src="images/difficulty.png" alt="">
         </div>
     </body>
