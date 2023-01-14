@@ -27,9 +27,10 @@ My first course project project
 <html>
     <body>
         <div align="center">
-            <span font-size=30px>
-                    Hello there
-            </span>
+            Hello there
+        </div>
+        <div align="senter">
+            <img src="images/difficulty.png" alt="">
         </div>
     </body>
 </html>
