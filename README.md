@@ -25,11 +25,6 @@ My first course project project
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Hello
-        </title>
-    </head>
     <body>
         Hello there
     </body>
