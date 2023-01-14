@@ -25,12 +25,9 @@ My first course project project
 
 <!DOCTYPE html>
 <html>
-    <style>
-        body {
-            text-align: center;
-        }
-    </style>
     <body>
-        Hello there
+        <div align="center">
+            Hello there
+        </div>
     </body>
 </html>
